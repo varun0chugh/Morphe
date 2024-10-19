@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/htop')
 def htop():
-    name = "Your Full Name"
+    name = "Varun Chugh"
     username = os.getenv('USER') or os.getenv('USERNAME')
 
     server_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + 19800)) # 19800 seconds offset for IST
